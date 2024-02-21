@@ -1,0 +1,93 @@
+/* --purple-lightest: #F9F9F9;
+    --purple-lighter: #EBE8EF;
+    --purple-light: #3C1E5F;
+    --purple-dark: #30184C; */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+    header,footer{
+        background-color:#30184C ;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 2.5rem;
+        
+    }
+
+    header p{
+        color: white;
+    }
+
+    .logo a{
+        display: flex;
+        align-items: end;
+    }
+
+    .menu a{
+        color:white;
+        text-decoration: none;
+
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+       
+        flex-wrap: wrap;
+    }
+
+    .hero{
+        background-color: #3C1E5F;
+        text-align: center;
+        color: white;
+        padding: 2.5rem 0;
+        font-size: 40px;
+    }
+.hero span{
+    color: #EE7C7D;
+    
+}
+
+    .card_section{
+        padding: 2.5rem;
+        display: flex;
+        gap: 20px;
+        margin-top: 2.5rem;
+    }
+
+    .card{
+        width: 33%;
+        
+    }
+
+    .card img{
+        object-fit: cover;
+        max-width: 100%;
+        width: 100%;
+        height: 200px;
+        border-radius: 0.5rem;
+    }
+
+    .text_container{
+        padding: 1rem 2.5rem 6rem;
+    }
+
+    @media(max-width: 700px){
+        .card_section{
+            flex-direction: column;
+        }
+        main{
+            flex-direction: column;
+        }
+        .card{width: 100%;}
+    }
+
+
+
