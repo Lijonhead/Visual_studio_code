@@ -1,0 +1,31 @@
+.parent{
+    border: 2px solid black;
+    height: 80vh;
+    margin-top: 150px;
+    position: relative;
+}
+
+.child{
+    width: 150px;
+    height: 150px;
+    border: 2px solid red;
+    position: absolute;
+    top: 0;
+    right: px;
+}
+
+header, footer{
+    border: 2px solid hotpink;
+    height: 20vh;
+    background: hotpink;
+}
+
+main{
+    height: 120vh; 
+    background-color: blue;
+}
+
+footer{
+    position: sticky;
+    bottom: 0;
+}
